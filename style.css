@@ -1,0 +1,51 @@
+@import url(./normalize.css);
+
+.page-container {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.main {
+    width: 90%;   
+    background-color: aqua;
+}
+
+.main__menu {
+    width: 90%;   
+    background-color: aqua;
+}
+
+
+
+
+@media all and (min-width: 480px) {
+    .main {
+        width: 450px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .main {
+        width: 700px;
+    }
+}
+
+@media all and (min-width: 1024px) {
+    .main {
+        width: 900px;
+    }
+}
+
+@media all and (min-width: 1280px) {
+    .main {
+        width: 1200px;
+    }
+}
+
+@media all and (min-width: 1600px) {
+    .main {
+        width: 1400px;
+    }
+}
