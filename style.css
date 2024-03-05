@@ -1,21 +1,147 @@
 @import url(./normalize.css);
+@import url(.//fonts/fonts.css);
 
 .page-container {
+    font-family: DomInoRevObl;
     width: 100%;
     display: flex;
     margin: auto;
     justify-content: center;
+    background-color: #f29b34;
 }
 
 .main {
     width: 90%;   
-    background-color: aqua;
+ 
 }
 
 .main__menu {
-    width: 90%;   
-    background-color: aqua;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
+
+.header {
+    padding: 45px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__logo {
+    width: 380px;
+    height: 140px;
+}
+
+.main__menu {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 15px;
+}
+
+.main__link {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-product__title {
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+.about-product__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-product__title-image {
+    width: 40%;
+    height: fit-content;
+    border-radius: 15px;
+}
+
+.about-product__text {
+    padding: 0;
+    margin: 0;
+    width: 55%;
+    font-size: 40px;
+}
+
+.pluses-minuses__title {
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    padding-top: 40px;
+}
+
+.pluses-minuses__text {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.pluses-minuses__list {
+    margin: 0;
+    padding: 0;
+}
+
+.pluses-minuses__list__item {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.complectation__title {
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    padding-top: 40px;
+}
+
+.complectation__list {
+    margin: 0;
+    padding: 0;
+}
+
+.complectation__list__item {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.complectation__title {
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    padding-bottom: 40px;
+}
+
+.contacts__title {
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.contacts__text {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
 
 
 
@@ -23,6 +149,12 @@
 @media all and (min-width: 480px) {
     .main {
         width: 450px;
+    }
+}
+
+@media all and (min-width: 600px) {
+    .header {
+        flex-direction: row;
     }
 }
 

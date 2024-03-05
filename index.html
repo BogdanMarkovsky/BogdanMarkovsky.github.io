@@ -9,12 +9,68 @@
   </head>
   <body class="page-container">
     <main class="main">
-      <nav class="main__menu">
-        <a class="main__link">О нас</a>
-        <a class="main__link">О продукте</a>
-        <a class="main__link">Контакты</a>
-      </nav>
-      <h1>Сваекрут 54</h1>
+      <header class="header">
+        <img class="header__logo" src="./logo.png"></img>
+        <nav class="main__menu">
+          <a class="main__link underline" href="#about">О продукте</a>
+          <a class="main__link underline" href="#pluses-munuses">Плюсы и минусы</a>
+          <a class="main__link underline" href="#complectation">Комплектация</a>
+          <a class="main__link underline">Контакты</a>
+        </nav>
+      </header>
+      <section id="about" class="about-product">
+        <h2 class="about-product__title">О продукте</h2>
+        <div class="about-product__container">
+            <img class="about-product__title-image" src="./images/img1.jpg"/>
+            <p class="about-product__text">Мы осуществляем монтаж винтовых свай уже более 6 лет и хотим поделиться с Вами нашими наработками. 
+                Наш сваекрут изготовлен на основе усиленного (самого мощного в своем классе на рынке в России) планетарного редуктора ROCKFORCE RF-34114102
+                типа "мясорубка" с крутящим моментом 6800 Нм и передаточным число 1:78. Данный сваекрут позволяет осуществлять монтаж свай в мягкие/пучинистые грунты. 
+                Оптимальный диаметр свай для монтажа - 57, 76, 89.
+            </p>
+        </div>
+      </section>
+      <section id="pluses-munuses" class="pluses-minuses">
+        <h2 class="pluses-minuses__title">Плюсы и минусы</h2>
+        <p class="pluses-minuses__text">
+            У нашего сваекрута, как и у любого инструмента имеется ряд преимуществ и недостатков.
+        </p>
+        <span class="pluses-minuses__text underline">Отметим преимущества</span>
+        <ol class="pluses-minuses__list">
+            <li class="pluses-minuses__list__item">Доступная цена. Цена сваекрута в стандартной комплектации на данный момент составляет 50.000 рублей. 
+                Для сравнения цена на промышленные решения начинается от 300.000 рублей - это например редуктор AVVI, или гидравлический сваекрут типа "Геркулес". 
+                Ямобур на базе грузовика начинается от 3.000.000 рублей за "уставший" вариант.</li>
+            <li class="pluses-minuses__list__item">Быстрый срок окупаемости, как следствие пункта №1. В среднем по рынку монтаж одной сваи оценивается в 1700 рублей. 
+                Следовательно сваекрут окупается менее чем за 30 свай. А это - всего 1-2 заказа.</li>
+            <li class="pluses-minuses__list__item">Очень простой процесс сборки-разборки.</li>
+            <li class="pluses-minuses__list__item">Компактность - можно осуществлять монтаж свай внутри построек.</li>
+            <li class="pluses-minuses__list__item">Монтаж свай в труднодоступных местах - наш портативный сваекрут закрутит там, где не подъедет крупная установка.</li>
+            <li class="pluses-minuses__list__item">Для монтажа свай требуется бригада из 2-3 человек.</li>
+        </ol>
+        <span class="pluses-minuses__text underline">Выделим недостатки</span>
+        <ol class="pluses-minuses__list">
+            <li class="pluses-minuses__list__item">Не подходит для плотных грунтов, песка, а также при наличии мусора в почве(бетон, кирпичи, металл). В таких случаях
+                редуктор может быстро выйти из строя.</li>
+        </ol>
+        <span class="pluses-minuses__text underline">Резюмируя вышесказанное отметим, что достоинств гораздо больше, чем недостатков. При адекватном выборе грунта для монтажа, а 
+            также аккуратном использовании ресурс редуктора может составить и 300, и 400, и 500 свай.</span>
+      </section>
+      <section id="complectation" class="complectation">
+        <h2 class="complectation__title">Комплектация</h2>
+        <ol class="complectation__list">
+          <li class="complectation__list__item">Двухскоростная дрель Rebir 2000вт.</li>
+          <li class="complectation__list__item">Редуктор Rockforce RF-34114102 1:78 со старых поставок.</li>
+          <li class="complectation__list__item">Кожух для соединения и фиксации редуктора и дрели.</li>
+          <li class="complectation__list__item">Отвод для присоединения реактивной тяги</li>
+          <li class="complectation__list__item">3 головки - для монтажа 57, 76, 89 свай</li>
+          <li class="pluses-minuses__list__item">Палец для фиксации сваи в головке</li>
+      </ol>
+      </section>
+      <footer class="contacts">
+        <h2 class="contacts__title">Наши контакты</h2>
+        <p class="contacts__text">Богдан +7 913 209 6481</p>
+        <p class="contacts__text">Сергей +7 913 946 0571</p>
+        <a href="https://www.avito.ru/novosibirsk/remont_i_stroitelstvo/svaekrut_elektricheskiy_s_reduktorom_178_3006731262" class="contacts__text">Ссылка на Авито</a>
+      </footer>
     </main>
   </body>
 </html>
